@@ -1,0 +1,55 @@
+/* Custom CSS by JustArkzy */
+:root { 
+--main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); */
+--background-mentioned: rgba(255, 255, 255, 0.03);
+}
+
+.icon-3zI3d2 {
+    display: none
+}
+.name-3BUDLf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    opacity: .7
+}
+.name-3BUDLf:before {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to left, var(--main-color) 50%, transparent);
+    margin-right: 5px
+}
+.name-3BUDLf:after {
+    content: "";
+    height: 2px;
+    flex-grow: 1;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, var(--main-color) 50%, transparent);
+    margin-left: 5px
+}
+.mainContent-uDGa6R:hover .name-3BUDLf {
+    opacity: 1
+}
+.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf,
+.sidebar-1tnWFu .containerDragAfter-1J_-1V .wrapper-1S43wv .name-3BUDLf,
+.sidebar-1tnWFu .containerDragBefore-ei4h1m .wrapper-1S43wv .name-3BUDLf,
+.sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf {
+    color: var(--main-color)
+}
+.children-3MeUvj {
+    margin-left: 3px
+}
+.collapsed-2KOacR .name-3BUDLf:before,
+.collapsed-2KOacR .name-3BUDLf:after {
+    flex-grow: 0
+}
+
+.mentioned-Tre-dv:before {
+    --info-warning-foreground: rgba(255, 255, 255, 0.5)
+}
