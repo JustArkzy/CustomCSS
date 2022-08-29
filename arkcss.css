@@ -1,6 +1,8 @@
-/* Custom CSS by JustArkzy, Obscure, Disease, Carrot  */
+/* Custom CSS by JustArkzy, Obscure, Disease, Carrot  */ 
+
+/* NOTE: The */
 :root {
---main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); /* CATEGORIES NAMES */
+--main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); /* CATEGORIES NAMES COLOR */
 --background-mentioned: rgba(255, 255, 255, 0.02); /* MENTIONS */
 --font-primary: "Inter" !important; 
 --font-display: "Inter" !important;
@@ -9,6 +11,8 @@
 .icon-3zI3d2 {
     display: none
 }
+
+/* CUSTOM CATEGORIES */
 .name-3BUDLf {
     display: flex;
     align-items: center;
@@ -35,7 +39,7 @@
     background: linear-gradient(to right, var(--main-color) 50%, transparent);
     margin-left: 5px
 }
-
+/* ONLY USE WITH LAVENDER */
 /*.attachWrapper-3slhXI {
   order: -1 !important;
   margin-right: 15px !important;
@@ -55,6 +59,7 @@
 .sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf {
     color: var(--main-color)
 }
+
 .children-3MeUvj {
     margin-left: 3px
 }
@@ -63,14 +68,19 @@
     flex-grow: 0
 }
 
+/* CUSTOM CATEGORIES ENDED */
+
 .note-3M15gE {
   display: block !important;
 }
+
+/* MENTION SIDEBAR COLOR */
 
 .mentioned-Tre-dv:before {
 	--info-warning-foreground: rgba(255, 145, 0, 1);
 }
 
+/* CREARTS STATUS FIX */
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
   .avatarWrapper-1B9FTW {
