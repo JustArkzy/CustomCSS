@@ -4,7 +4,7 @@
 
 :root {
 --main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); */
---background-mentioned: rgba(40, 40, 40, 1);
+--background-mentioned: rgba(255, 255, 255, 0.02); /**/
 --font-primary: "Inter" !important;
 --font-display: "Inter" !important;
 }
@@ -66,10 +66,6 @@
 .collapsed-2KOacR .name-3BUDLf:before,
 .collapsed-2KOacR .name-3BUDLf:after {
     flex-grow: 0
-}
-
-.mentioned-Tre-dv:before {
-    --info-warning-foreground: rgba(255, 174, 87, 1) /* rgba(255, 255, 255, 0.5) */
 }
 
 .note-3M15gE {
