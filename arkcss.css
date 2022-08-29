@@ -6,6 +6,7 @@
 --background-mentioned: rgba(255, 255, 255, 0.02); /* MENTIONS */
 --font-primary: "Inter" !important; 
 --font-display: "Inter" !important;
+--text-link: rgb(255,255,255)
 }
 
 .icon-3zI3d2 {
