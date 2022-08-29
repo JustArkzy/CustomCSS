@@ -73,7 +73,7 @@
 }
 
 .mentioned-Tre-dv:before {
-    --info-warning-foreground: rgba(255, 255, 255, 0.5)
+    --info-warning-foreground: RGBA(42, 122, 212, 1)
 }
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
