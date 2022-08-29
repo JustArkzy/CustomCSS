@@ -72,9 +72,10 @@
   display: block !important;
 }
 
-.mentioned-Tre-dv:before {
+/* .mentioned-Tre-dv:before {
     --info-warning-foreground: rgba(42, 122, 212, 1);
 }
+*/
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
   .avatarWrapper-1B9FTW {
