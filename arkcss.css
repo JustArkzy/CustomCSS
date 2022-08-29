@@ -5,8 +5,8 @@
 :root {
 --main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); */
 --background-mentioned: rgba(255, 255, 255, 0.03);
---font: "Inter";
---font-display: "Inter";
+--font: "Inter" !important;
+--font-display: "Inter" !important;
 }
 
 .icon-3zI3d2 {
