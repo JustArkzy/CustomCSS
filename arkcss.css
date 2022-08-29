@@ -1,14 +1,5 @@
 /* Custom CSS by JustArkzy, Obscure, Disease, Carrot  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-:root {
---main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); /* CATEGORIES NAMES */
---background-mentioned: rgba(255, 255, 255, 0.03); /* MENTIONS */
---font-primary: "Inter" !important; 
---font-display: "Inter" !important;
-}
-
 .icon-3zI3d2 {
     display: none
 }
@@ -43,10 +34,8 @@
   order: -1 !important;
   margin-right: 15px !important;
   margin-left: -15px !important;
-
   border-radius: 10px 0px 0px 10px !important;  
 }
-
 .attachButton-_ACFSu {
   height: 44px !important;
 }
@@ -72,10 +61,10 @@
   display: block !important;
 }
 
-/* .mentioned-Tre-dv:before {
-    --info-warning-foreground: rgba(42, 122, 212, 1);
+.mentioned-Tre-dv:before {
+		--info-warning-foreground: rgba(255, 145, 0, 1);
 }
-*/
+
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
   .avatarWrapper-1B9FTW {
