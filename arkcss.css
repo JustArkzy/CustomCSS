@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
+--main-color: rgb(255, 255, 255) /* Original: rgb(42, 122, 212); */
+--background-mentioned: hsla(360, 0%, 25%, 0.1) 
 --font-primary: "Inter" !important;
 --font-display: "Inter" !important;
 }
@@ -67,7 +69,7 @@
 }
 
 .mentioned-Tre-dv:before {
-    --info-warning-foreground: rgba(255, 255, 255, 0.5)
+    --info-warning-foreground: rgba(255, 255, 255, 0.5) /* rgba(255, 255, 255, 0.5) */
 }
 
 .note-3M15gE {
