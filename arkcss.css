@@ -4,7 +4,7 @@
 
 :root {
 --main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); */
---background-mentioned: hsla(360, 0%, 25%, 0.1); 
+--background-mentioned: hsla(360, 0%, 25%, 0.1);
 --font-primary: "Inter" !important;
 --font-display: "Inter" !important;
 }
