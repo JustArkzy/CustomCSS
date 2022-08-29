@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
---font-primary: "Inter" !important;
+--main-color: rgb(255, 255, 255); /* Original: rgb(42, 122, 212); /* CATEGORIES NAMES */
+--background-mentioned: rgba(255, 255, 255, 0.03); /* MENTIONS */
+--font-primary: "Inter" !important; 
 --font-display: "Inter" !important;
 }
 
@@ -15,7 +17,7 @@
     align-items: center;
     justify-content: center;
     color: var(--main-color);
-    font-weight: 700;
+    font-weight: 450;
     text-align: center;
     transition: all .3s ease-in-out;
     opacity: .7
@@ -68,6 +70,10 @@
 
 .note-3M15gE {
   display: block !important;
+}
+
+.mentioned-Tre-dv:before {
+    --info-warning-foreground: rgba(255, 255, 255, 0.5)
 }
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
